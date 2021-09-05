@@ -1,0 +1,14 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "créer une application mern stack pour prendre des rendez-vous chez les garagiste de réparation véhicule",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdelhaq",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
