@@ -1,11 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import * as ReactBootstrap from 'react-bootstrap';
-
-
-
-
+import { BrowserRouter as Router,Switch, Route, Link  } from "react-router-dom";
+import Blog from './Blog'
 
 
 
@@ -17,12 +14,12 @@ function Navbar() {
    
             <ReactBootstrap.Navbar className="mb-5" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
  
- <NavLink className="mx-3" to="/">Garage Automobile</NavLink>
+ <ReactBootstrap.Navbar.Brand className="mx-3" href="#home">Garage Automobile</ReactBootstrap.Navbar.Brand>
  <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
  <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
    <ReactBootstrap.Nav className="me-auto">
      <ReactBootstrap.Nav.Link className="mx-5" href="#features">Our Client</ReactBootstrap.Nav.Link>
-     <NavLink  className="px-5" to="/blog">Blog</NavLink>
+     <Link  className="px-5" to="/Blog">Blog</Link>
      {/* <ReactBootstrap.NavDropdown title="Dropdown" id="collasible-nav-dropdown">
        <ReactBootstrap.NavDropdown.Item href="#action/3.1">Action</ReactBootstrap.NavDropdown.Item>
        <ReactBootstrap.NavDropdown.Item href="#action/3.2">Another action</ReactBootstrap.NavDropdown.Item>
@@ -42,7 +39,10 @@ function Navbar() {
 </ReactBootstrap.Navbar>
 
 
-  
+  <Switch>
+  <Route path="/" exact component={Blog} />
+  </Switch>
+</Router>
 
 
 </>

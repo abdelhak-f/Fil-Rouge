@@ -12,6 +12,14 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                 <Form>
                   <Form.Group>
                     <h2>Owner Information</h2>
+                    <Row>
+                      <Col>
+                      
+                      </Col>
+                      <Col>
+                      
+                      </Col>
+                    </Row>
                     <Form.Label>Name</Form.Label>
                     <Row>
                       <Col>
@@ -41,7 +49,7 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                   </Form.Group>
     
                   <Row>
-                    
+                  
                     <Form.Group as={Col} controlId="formGridState">
                       <Form.Label>City</Form.Label>
                       <Form.Control as="select">
@@ -102,7 +110,6 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
             
          
         </Container>
-
 
    
     

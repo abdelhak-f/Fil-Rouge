@@ -21,16 +21,14 @@ function App() {
 <Router>
 
      <Navbar />
-     
-    
+     <Body/>
+     <Footer/>
 
      
     <Switch>
-    <Route  path="/" exact component={Body} />
+    <Route  path="/Blog" component={Body} />
        <Route  path="/Blog" component={Blog} />
     </Switch>
-
-    <Footer/>
 </Router>
     </>
     

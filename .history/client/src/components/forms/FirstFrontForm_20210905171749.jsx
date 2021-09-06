@@ -41,7 +41,10 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                   </Form.Group>
     
                   <Row>
-                    
+                    {/* <Form.Group as={Col} controlId="formGridCity">
+                      <Form.Label>City</Form.Label>
+                      <Form.Control />
+                    </Form.Group> */}
                     <Form.Group as={Col} controlId="formGridState">
                       <Form.Label>City</Form.Label>
                       <Form.Control as="select">
@@ -76,7 +79,7 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                     <Form.Group className="" controlId="exampleForm.ControlTextarea1">
                       <Form.Label>Your description</Form.Label>
                       <Form.Control as="textarea" rows={3} 
-                        placeholder="you can describe the anomalies of your vehicle to be repaired" 
+                        placeholder="Enter Your Description" 
                       />
                     </Form.Group>
                     <Form.Group>
@@ -104,6 +107,73 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
         </Container>
 
 
+
+
+
+
+
+  //   <Container>
+  //      <Form >
+     
+  //    <Form.Group className="mb-3" controlId="formBasicEmail">
+  //      <Form.Label>First Name </Form.Label>
+  //      <Form.Control type="text" placeholder="Enter Your Name" />
+  //    </Form.Group>
+  //    <Form.Group>
+  //    <Row>
+  //      <Col>
+  //      <Form.Control type="text" placeholder="Enter Your Name" />
+  //      </Col>
+  //      <Col>
+  //      <Form.Control type="text" placeholder="Enter Your Name" />
+  //      </Col>
+  //    </Row>
+  //    </Form.Group>
+     
+   
+  //    <Form.Group className="mb-3 "  controlId="formBasicEmail">
+  //      <Form.Label>Last Name</Form.Label>
+  //      <Form.Control type="text" placeholder="Enter Your Last Name" />
+  //    </Form.Group>
+   
+  //    <Form.Group className="mb-3 " controlId="formBasicEmail">
+  //      <Form.Label>Email address</Form.Label>
+  //      <Form.Control type="email" placeholder="Enter email" />
+  //      <Form.Text className="text-muted">
+  //        We'll never share your email with anyone else.
+  //      </Form.Text>
+  //    </Form.Group>
+   
+  //    <Form.Group className="mb-3" controlId="formBasicPassword">
+  //      <Form.Label>Password</Form.Label>
+  //      <Form.Control type="password" placeholder="Password" />
+  //    </Form.Group>
+  //    {/* <Form.Group as={Col} controlId="formGridCity">
+  //        <Form.Label>City</Form.Label>
+  //        <Form.Control />
+  //      </Form.Group>
+   
+  //      <Form.Group as={Col} controlId="formGridState">
+  //        <Form.Label>State</Form.Label>
+  //        <Form.Select defaultValue="Choose...">
+  //          <option>Choose...</option>
+  //          <option>...</option>
+  //        </Form.Select>
+  //      </Form.Group>
+   
+  //      <Form.Group as={Col} controlId="formGridZip">
+  //        <Form.Label>Zip</Form.Label>
+  //        <Form.Control />
+  //      </Form.Group> */}
+  //      <Form.Group className="mb-3" controlId="formBasicCheckbox">
+  //      <Form.Check type="checkbox" label="Check me out" />
+  //    </Form.Group>
+  //    <Button variant="primary" type="submit">
+  //      Submit
+  //    </Button>
+     
+  //  </Form>
+  //   </Container>
    
     
   );

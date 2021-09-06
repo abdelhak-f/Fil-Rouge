@@ -17,7 +17,7 @@ function Navbar() {
    
             <ReactBootstrap.Navbar className="mb-5" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
  
- <NavLink className="mx-3" to="/">Garage Automobile</NavLink>
+ <NavLink className="mx-3" to="/Home">Garage Automobile</NavLink>
  <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
  <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
    <ReactBootstrap.Nav className="me-auto">

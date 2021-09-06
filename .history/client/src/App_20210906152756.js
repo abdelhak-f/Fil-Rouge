@@ -18,19 +18,15 @@ function App() {
    
    
     <>
-<Router>
-
+    <Router>
      <Navbar />
-     
-    
+     <Body/>
+     <Footer/>
 
      
     <Switch>
-    <Route  path="/" exact component={Body} />
-       <Route  path="/Blog" component={Blog} />
+       <Route path="/Blog" component={Blog} />
     </Switch>
-
-    <Footer/>
 </Router>
     </>
     

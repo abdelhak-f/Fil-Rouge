@@ -4,8 +4,8 @@ import React from 'react';
 import Navbar from './components/Nnavbar';
 import Body from './components/Body';
 import Footer from './components/Footer';
-import Blog from './components/Blog';
 
+// using CommonJS modules
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -18,19 +18,15 @@ function App() {
    
    
     <>
-<Router>
-
+    <Router>
      <Navbar />
-     
-    
+     <Body/>
+     <Footer/>
 
      
     <Switch>
-    <Route  path="/" exact component={Body} />
-       <Route  path="/Blog" component={Blog} />
+       <Route path="/Blog" component={Blog} />
     </Switch>
-
-    <Footer/>
 </Router>
     </>
     

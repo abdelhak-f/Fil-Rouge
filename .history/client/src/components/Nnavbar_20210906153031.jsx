@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import * as ReactBootstrap from 'react-bootstrap';
 
@@ -17,7 +16,7 @@ function Navbar() {
    
             <ReactBootstrap.Navbar className="mb-5" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
  
- <NavLink className="mx-3" to="/">Garage Automobile</NavLink>
+ <ReactBootstrap.Navbar.Brand className="mx-3" href="#home">Garage Automobile</ReactBootstrap.Navbar.Brand>
  <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
  <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
    <ReactBootstrap.Nav className="me-auto">

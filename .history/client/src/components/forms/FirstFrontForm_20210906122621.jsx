@@ -10,9 +10,12 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
             <Col md={{ span: 7, offset: 3 }}>
               <Jumbotron>
                 <Form>
-                  <Form.Group>
-                    <h2>Owner Information</h2>
-                    <Form.Label>Name</Form.Label>
+                  
+                    <Row>
+                      <Col>
+                        <Form.Group>
+                          <h2>Owner Information</h2>
+                          <Form.Label>Name</Form.Label>
                     <Row>
                       <Col>
                         <Form.Control placeholder="First Name"></Form.Control>
@@ -41,7 +44,7 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                   </Form.Group>
     
                   <Row>
-                    
+                  
                     <Form.Group as={Col} controlId="formGridState">
                       <Form.Label>City</Form.Label>
                       <Form.Control as="select">
@@ -59,7 +62,11 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                       <Form.Control />
                     </Form.Group>
                   </Row>
-                  <Row>
+
+                      </Col>
+
+                      <Col>
+                      <Row>
                     <Form.Group as={Col} controlId="formGridEmail">
                       <Form.Label>Vehicle Type</Form.Label>
                       <Form.Control type="email" placeholder="Enter Vehicle Type" />
@@ -88,6 +95,14 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                     />
                   </Form.Group>
                   </Row>
+
+                      </Col>
+                      
+                    </Row>
+
+
+                    
+                  
                   <br />
                   
 
@@ -102,7 +117,6 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
             
          
         </Container>
-
 
    
     

@@ -41,7 +41,10 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                   </Form.Group>
     
                   <Row>
-                    
+                    {/* <Form.Group as={Col} controlId="formGridCity">
+                      <Form.Label>City</Form.Label>
+                      <Form.Control />
+                    </Form.Group> */}
                     <Form.Group as={Col} controlId="formGridState">
                       <Form.Label>City</Form.Label>
                       <Form.Control as="select">

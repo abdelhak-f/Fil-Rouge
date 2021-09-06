@@ -10,9 +10,12 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
             <Col md={{ span: 7, offset: 3 }}>
               <Jumbotron>
                 <Form>
-                  <Form.Group>
+                  
                     <h2>Owner Information</h2>
-                    <Form.Label>Name</Form.Label>
+                    <Row>
+                    <Form.Group>
+                      <Col>
+                      <Form.Label>Name</Form.Label>
                     <Row>
                       <Col>
                         <Form.Control placeholder="First Name"></Form.Control>
@@ -41,7 +44,7 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                   </Form.Group>
     
                   <Row>
-                    
+                  
                     <Form.Group as={Col} controlId="formGridState">
                       <Form.Label>City</Form.Label>
                       <Form.Control as="select">
@@ -59,6 +62,13 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                       <Form.Control />
                     </Form.Group>
                   </Row>
+                      </Col>
+                      <Col>
+
+                      </Col>
+
+                    </Row>
+                    
                   <Row>
                     <Form.Group as={Col} controlId="formGridEmail">
                       <Form.Label>Vehicle Type</Form.Label>
@@ -102,7 +112,6 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
             
          
         </Container>
-
 
    
     
