@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Blog from './components/Blog';
 import FormGarage from './components/forms/FormGarage'
 import Login from './components/loged/login/Login';
-import Register from './components/loged/register/Register';
+import Register from './components/loged/Register';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -33,7 +33,7 @@ function App() {
     <Route  path="/Blog" component={Blog} />
     <Route  path="/FormGarage" component={FormGarage} />
     <Route  path="/login" component={Login} />
-    <Route  path="/register" component={Register} />
+    <Route  path="/register" component={ujkh} />
     </Switch>
 
     <Footer/>

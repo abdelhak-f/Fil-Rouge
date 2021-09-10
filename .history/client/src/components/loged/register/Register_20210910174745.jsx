@@ -1,30 +1,22 @@
 import React from 'react'
-import {Form, Container,Jumbotron, Button, Row, Col,} from 'react-bootstrap';
-import '../css/style.css';
+import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
 
-function FormGarage() {
+function Register() {
     return (
-        
-        <Container className="mt-5 mb-3 form-inline">
+        <Container className="mt-5 mb-3">
           
-            {/* <Col md={{ span: 7, offset: 3 }}> */}
+            <Col md={{ span: 7, offset: 3 }}>
               <Jumbotron>
-                <Form className="form-inline">
+                <Form>
                   <Form.Group>
                     <h2>Owner Information</h2>
                     <Form.Label>Name</Form.Label>
                     <Row>
                       <Col>
                         <Form.Control placeholder="First Name"></Form.Control>
-                        <Form.Control.Feedback type="invalid">
-                              Please choose a username.
-                        </Form.Control.Feedback>
                       </Col>
                       <Col>
                         <Form.Control placeholder="Last Name"></Form.Control>
-                        <Form.Control.Feedback type="invalid">
-                                Please choose a username.
-                        </Form.Control.Feedback>
                       </Col>
                     </Row>
                   </Form.Group>
@@ -93,13 +85,13 @@ function FormGarage() {
                       // onChange={this.setDate}
                     />
                   </Form.Group>
-                  {/* <Form.Group as={Col} >
+                  <Form.Group as={Col} >
                       <Form.Label>Choose a garagiste</Form.Label>
                       <Form.Control type="text" as="select" >
                        <option>Choose...</option>
                        </Form.Control>
                       
-                    </Form.Group> */}
+                    </Form.Group>
                   </Row>
                   <br />
                   
@@ -111,12 +103,11 @@ function FormGarage() {
                  
                 </Form>
               </Jumbotron>
-            {/* </Col> */}
+            </Col>
             
          
         </Container>
-    
     )
 }
 
-export default FormGarage
+export default Register

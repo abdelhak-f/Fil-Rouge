@@ -1,30 +1,23 @@
-import React from 'react'
-import {Form, Container,Jumbotron, Button, Row, Col,} from 'react-bootstrap';
-import '../css/style.css';
+import React from 'react';
+import '../../css/style.css';
+import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
 
-function FormGarage() {
+function Register() {
     return (
-        
-        <Container className="mt-5 mb-3 form-inline">
+        <Container className=" mb-3 owner">
           
-            {/* <Col md={{ span: 7, offset: 3 }}> */}
+            <Col md={{ span: 7, offset: 3 }}>
               <Jumbotron>
-                <Form className="form-inline">
+                <Form>
                   <Form.Group>
                     <h2>Owner Information</h2>
                     <Form.Label>Name</Form.Label>
                     <Row>
                       <Col>
                         <Form.Control placeholder="First Name"></Form.Control>
-                        <Form.Control.Feedback type="invalid">
-                              Please choose a username.
-                        </Form.Control.Feedback>
                       </Col>
                       <Col>
                         <Form.Control placeholder="Last Name"></Form.Control>
-                        <Form.Control.Feedback type="invalid">
-                                Please choose a username.
-                        </Form.Control.Feedback>
                       </Col>
                     </Row>
                   </Form.Group>
@@ -67,40 +60,18 @@ function FormGarage() {
                   </Row>
                   <Row>
                     <Form.Group as={Col} controlId="formGridEmail">
-                      <Form.Label>Vehicle Type</Form.Label>
+                      <Form.Label>Password</Form.Label>
                       <Form.Control type="text" placeholder="Enter Vehicle Type" />
                     </Form.Group>
                     <Form.Group as={Col} controlId="formGridTel">
-                      <Form.Label>Serial Number</Form.Label>
+                      <Form.Label>Confirm Password</Form.Label>
                       <Form.Control
                         type="number"
                         placeholder="Enter serial number"
                       />
                     </Form.Group>
                   </Row>
-                  <Row>
-                    <Form.Group className="" controlId="exampleForm.ControlTextarea1">
-                      <Form.Label>Your description</Form.Label>
-                      <Form.Control as="textarea" rows={3} 
-                        placeholder="you can describe the anomalies of your vehicle to be repaired" 
-                      />
-                    </Form.Group>
-                    <Form.Group as={Col} >
-                    <Form.Label>Select Appointment</Form.Label>
-                    <Form.Control
-                      type="date"
-                      // value={date}
-                      // onChange={this.setDate}
-                    />
-                  </Form.Group>
-                  {/* <Form.Group as={Col} >
-                      <Form.Label>Choose a garagiste</Form.Label>
-                      <Form.Control type="text" as="select" >
-                       <option>Choose...</option>
-                       </Form.Control>
-                      
-                    </Form.Group> */}
-                  </Row>
+                 
                   <br />
                   
 
@@ -111,12 +82,11 @@ function FormGarage() {
                  
                 </Form>
               </Jumbotron>
-            {/* </Col> */}
+            </Col>
             
          
         </Container>
-    
     )
 }
 
-export default FormGarage
+export default Register

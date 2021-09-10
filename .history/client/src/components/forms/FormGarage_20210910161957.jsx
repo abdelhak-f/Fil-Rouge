@@ -16,15 +16,12 @@ function FormGarage() {
                     <Row>
                       <Col>
                         <Form.Control placeholder="First Name"></Form.Control>
-                        <Form.Control.Feedback type="invalid">
-                              Please choose a username.
-                        </Form.Control.Feedback>
                       </Col>
                       <Col>
                         <Form.Control placeholder="Last Name"></Form.Control>
                         <Form.Control.Feedback type="invalid">
-                                Please choose a username.
-                        </Form.Control.Feedback>
+    Please choose a username.
+  </Form.Control.Feedback>
                       </Col>
                     </Row>
                   </Form.Group>

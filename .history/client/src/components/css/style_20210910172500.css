@@ -6,19 +6,12 @@
   .Login{
     margin-top: 5rem;
     margin-bottom: 5rem;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .form-inline {
       margin-top:  5%;
       width: 80%;
       height: 5%;
-  }
-  .btn{
-      margin-bottom: 23%;
-  }
-
-  .owner{
-      margin-top: 5rem;
   }

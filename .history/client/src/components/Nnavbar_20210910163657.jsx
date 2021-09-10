@@ -32,7 +32,7 @@ function Navbar() {
      </ReactBootstrap.NavDropdown> */}
    </ReactBootstrap.Nav>
    <ReactBootstrap.Nav>
-     <NavLink  className="px-5"  to="/login"> Login</NavLink>
+     <ReactBootstrap.Nav.Link href="#deets" className="px-5"  to="/login"> Login</ReactBootstrap.Nav.Link>
      {/* <ReactBootstrap.Nav.Link eventKey={2} href="#memes">
        Admin
      </ReactBootstrap.Nav.Link> */}
