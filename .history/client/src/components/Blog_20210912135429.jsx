@@ -16,11 +16,9 @@ function Blog() {
          <Card >
            <Card.Header  >"Le nom de Garage"  </Card.Header>
             <Card.Img 
-            style={{ height: '400px', weiht: '500px' }}
+            style={{ height: '200px', weiht: '500px' }}
              src={image} />
-            <Card.Body
-             style={{ height: '20rem' }}
-            >
+            <Card.Body>
             <Card.Title>Special title treatment</Card.Title>
             <Card.Text>
                  With supporting text below as a natural lead-in to additional content.
@@ -59,7 +57,6 @@ function Blog() {
             <Card.Text>
                  With supporting text below as a natural lead-in to additional content.
             </Card.Text>
-            <Card.Title>Adress of Garage</Card.Title>
            
             <Row>
                <Col>

@@ -1,28 +1,34 @@
-import React  from 'react';
-import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
+import React from 'react'
+import {Form, Container,Jumbotron, Button, Row, Col,} from 'react-bootstrap';
+import '../css/style.css';
 
-
- function FirstFrontForm () {
-  return (
-
-    <Container className="mt-5 mb-3">
+function FormGarage() {
+    return (
+        
+        <Container className="mt-5 mb-3 form-inline">
           
-            <Col md={{ span: 7, offset: 3 }}>
+            {/* <Col md={{ span: 7, offset: 3 }}> */}
               <Jumbotron>
-                <Form>
+                <Form className="form-inline">
                   <Form.Group>
                     <h2>Owner Information</h2>
-                    {/* <Form.Label>Name</Form.Label>
-                    <Row>
+                    {/* <Form.Label>Name</Form.Label> */}
+                    {/* <Row>
                       <Col>
                         <Form.Control placeholder="First Name"></Form.Control>
+                        <Form.Control.Feedback type="invalid">
+                              Please choose a username.
+                        </Form.Control.Feedback>
                       </Col>
                       <Col>
                         <Form.Control placeholder="Last Name"></Form.Control>
+                        <Form.Control.Feedback type="invalid">
+                                Please choose a username.
+                        </Form.Control.Feedback>
                       </Col>
                     </Row> */}
                   </Form.Group>
-                  {/* <Row>
+                  <Row>
                     <Form.Group as={Col} controlId="formGridEmail">
                       <Form.Label>Email</Form.Label>
                       <Form.Control type="email" placeholder="Enter Email" />
@@ -58,7 +64,7 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                       <Form.Label>Zip Code</Form.Label>
                       <Form.Control />
                     </Form.Group>
-                  </Row> */}
+                  </Row>
                   <Row>
                     <Form.Group as={Col} controlId="formGridEmail">
                       <Form.Label>Vehicle Type</Form.Label>
@@ -79,15 +85,6 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                         placeholder="you can describe the anomalies of your vehicle to be repaired" 
                       />
                     </Form.Group>
-                    
-                  <Form.Group as={Col} >
-                      <Form.Label>Choose a garagiste</Form.Label>
-                      <Form.Control type="text" as="select" >
-                       <option>Choose...</option>
-                       </Form.Control>
-                      
-                    </Form.Group>
-
                     <Form.Group as={Col} >
                     <Form.Label>Select Appointment</Form.Label>
                     <Form.Control
@@ -96,6 +93,13 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                       // onChange={this.setDate}
                     />
                   </Form.Group>
+                  {/* <Form.Group as={Col} >
+                      <Form.Label>Choose a garagiste</Form.Label>
+                      <Form.Control type="text" as="select" >
+                       <option>Choose...</option>
+                       </Form.Control>
+                      
+                    </Form.Group> */}
                   </Row>
                   <br />
                   
@@ -107,15 +111,12 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                  
                 </Form>
               </Jumbotron>
-            </Col>
+            {/* </Col> */}
             
          
         </Container>
-
-
-   
     
-  );
+    )
 }
 
-export default FirstFrontForm ;
+export default FormGarage

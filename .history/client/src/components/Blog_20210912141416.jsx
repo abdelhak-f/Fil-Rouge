@@ -59,7 +59,6 @@ function Blog() {
             <Card.Text>
                  With supporting text below as a natural lead-in to additional content.
             </Card.Text>
-            <Card.Title>Adress of Garage</Card.Title>
            
             <Row>
                <Col>

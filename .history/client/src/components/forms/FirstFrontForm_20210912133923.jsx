@@ -79,15 +79,6 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                         placeholder="you can describe the anomalies of your vehicle to be repaired" 
                       />
                     </Form.Group>
-                    
-                  <Form.Group as={Col} >
-                      <Form.Label>Choose a garagiste</Form.Label>
-                      <Form.Control type="text" as="select" >
-                       <option>Choose...</option>
-                       </Form.Control>
-                      
-                    </Form.Group>
-
                     <Form.Group as={Col} >
                     <Form.Label>Select Appointment</Form.Label>
                     <Form.Control
@@ -96,6 +87,13 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                       // onChange={this.setDate}
                     />
                   </Form.Group>
+                  <Form.Group as={Col} >
+                      <Form.Label>Choose a garagiste</Form.Label>
+                      <Form.Control type="text" as="select" >
+                       <option>Choose...</option>
+                       </Form.Control>
+                      
+                    </Form.Group>
                   </Row>
                   <br />
                   

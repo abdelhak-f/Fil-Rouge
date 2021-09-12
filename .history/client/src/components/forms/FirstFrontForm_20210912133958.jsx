@@ -87,15 +87,6 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                        </Form.Control>
                       
                     </Form.Group>
-
-                    <Form.Group as={Col} >
-                    <Form.Label>Select Appointment</Form.Label>
-                    <Form.Control
-                      type="date"
-                      // value={date}
-                      // onChange={this.setDate}
-                    />
-                  </Form.Group>
                   </Row>
                   <br />
                   

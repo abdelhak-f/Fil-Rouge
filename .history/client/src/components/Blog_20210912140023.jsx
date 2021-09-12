@@ -19,7 +19,7 @@ function Blog() {
             style={{ height: '400px', weiht: '500px' }}
              src={image} />
             <Card.Body
-             style={{ height: '20rem' }}
+             style={{ height: '600px', weiht: '500px' }}
             >
             <Card.Title>Special title treatment</Card.Title>
             <Card.Text>
@@ -54,12 +54,11 @@ function Blog() {
             <Card.Img  
              style={{ height: '350px', weiht: '500px' }}
             src={image} />
-            <Card.Body>
+            <Card.Body style={{ height: '600px', weiht: '500px' }}>
             <Card.Title>Special title treatment</Card.Title>
             <Card.Text>
                  With supporting text below as a natural lead-in to additional content.
             </Card.Text>
-            <Card.Title>Adress of Garage</Card.Title>
            
             <Row>
                <Col>

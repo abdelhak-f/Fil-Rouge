@@ -12,7 +12,7 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                 <Form>
                   <Form.Group>
                     <h2>Owner Information</h2>
-                    {/* <Form.Label>Name</Form.Label>
+                    <Form.Label>Name</Form.Label>
                     <Row>
                       <Col>
                         <Form.Control placeholder="First Name"></Form.Control>
@@ -20,7 +20,7 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                       <Col>
                         <Form.Control placeholder="Last Name"></Form.Control>
                       </Col>
-                    </Row> */}
+                    </Row>
                   </Form.Group>
                   {/* <Row>
                     <Form.Group as={Col} controlId="formGridEmail">
@@ -79,15 +79,6 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                         placeholder="you can describe the anomalies of your vehicle to be repaired" 
                       />
                     </Form.Group>
-                    
-                  <Form.Group as={Col} >
-                      <Form.Label>Choose a garagiste</Form.Label>
-                      <Form.Control type="text" as="select" >
-                       <option>Choose...</option>
-                       </Form.Control>
-                      
-                    </Form.Group>
-
                     <Form.Group as={Col} >
                     <Form.Label>Select Appointment</Form.Label>
                     <Form.Control
@@ -96,6 +87,13 @@ import {Form, Container,Jumbotron, Button, Row, Col} from 'react-bootstrap';
                       // onChange={this.setDate}
                     />
                   </Form.Group>
+                  <Form.Group as={Col} >
+                      <Form.Label>Choose a garagiste</Form.Label>
+                      <Form.Control type="text" as="select" >
+                       <option>Choose...</option>
+                       </Form.Control>
+                      
+                    </Form.Group>
                   </Row>
                   <br />
                   
